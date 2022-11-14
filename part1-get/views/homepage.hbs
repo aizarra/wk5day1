@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Document</title>
+  </head>
+  <body>
+<div class="jumbotron p-5">
+  <h1 class="display-4">IronAir<span><img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Plane_font_awesome.svg/1200px-Plane_font_awesome.svg.png"></span></h1>
+  <div class="container mt-5 ">
+  <form action="/search" method="GET">
+    <label>
+      From
+      <input type="text" name="outCity" placeholder="City"/>
+    </label>
+    <label>
+      To
+      <input type="text" name="inCity" placeholder="City" />
+    </label>
+    <label>
+      Start-Date
+      <input type="date" name="start-date" />
+    </label>
+    <label>
+      End-Date
+      <input type="date" name="end-date" />
+    </label>
+    <button type="submit">SEARCH</button>
+  </form>
+  </div>
+</div>
+    
+  </body>
+</html>
